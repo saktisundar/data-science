@@ -1,0 +1,295 @@
+/* Large Screen */
+@media (max-width: 1700px){ 
+    .banner-section{
+        padding-right: 50px;
+        background-position: right;
+    }
+    .banner-section .banner-wraper .right-side{
+        max-width: 500px;
+    }
+    .banner-section .banner-wraper .right-side form .input-group label {
+        margin-bottom: 10px;
+    }
+    .banner-section .banner-wraper .right-side form .input-group {
+        margin-bottom: 20px;
+    }
+    .banner-section .banner-wraper .left-side {
+        padding: 60px;
+        max-width: 560px;
+    }
+    .banner-section .banner-wraper .left-side .logo {
+        margin-bottom: 30px;
+        max-width: 200px;
+    }
+    .founder-section{
+        background-position: right;
+    }
+    .founder-section .content {
+        max-width: 900px;
+    }
+    .founder-section .content h2{
+        font-size: 45px;
+    }
+    .founder-section{
+        background-size: 120% 100%;
+    }
+}
+@media (max-width: 1500px){ 
+    .founder-section{
+        background-size: cover !important;
+    }
+}
+@media (max-width: 1400px){ 
+    .founder-section .content {
+        max-width: 750px;
+    }
+    .founder-section .content h2{
+        font-size: 35px;
+    }
+}
+@media (max-width: 1366px){ 
+    .banner-section .banner-wraper .left-side {
+        padding: 30px;
+        max-width: 460px;
+    }
+    .banner-section .banner-wraper .right-side {
+        max-width: 460px;
+    }
+}
+@media (max-width: 1500px){
+    .banner-section{
+        padding-right: 0;
+        .right-side{
+            margin-left: 30px;
+        }
+    }
+}
+@media (max-width: 1260px){
+    .programmes-section .programmes-slider .items .title{
+        font-size: 16px;
+    }
+    .programmes-section .programmes-slider .items .bottom h5{
+        font-size: 16px;
+    }
+}
+@media (max-width: 1200px){
+    .programmes-section .programmes-slider .items .bottom{
+        display: block;
+        .button-area{
+            margin: 0;
+            margin-top: 15px;
+        }
+    }
+    .counterup-section .counterup-inner .items h2{
+        font-size: 40px;
+    }
+    .counterup-section .counterup-inner .items p{
+        font-size: 14px !important;
+    }
+    .banner-section .banner-wraper .right-side {
+        max-width: 400px;
+        padding: 20px;
+    }
+    .banner-section .banner-wraper .left-side {
+        padding: 20px;
+        max-width: 400px;
+    }
+    .banner-section .banner-wraper .left-side .logo {
+        max-width: 150px;
+    }
+    .banner-section .banner-wraper .left-side h2{
+        font-size: 50px;
+    }
+    .founder-section .content {
+        max-width: 530px;
+    }
+    .founder-section .content h2 {
+        font-size: 26px;
+    }
+    h2{
+        font-size: 30px !important;
+    }
+    h1{
+        font-size: 30px !important;
+    }
+    
+}
+/* Tab Screen */
+@media (max-width: 991px){
+    .founder-images{
+        display: block;
+    }
+    .footer-section .footer-bottom p{
+        text-align: center;
+    }
+    .footer-section .footer-bottom{
+        margin-top: 30px;
+        ul{
+            text-align: center;
+        }
+    }
+    .founder-section{
+        background-size: cover;
+        background-position: left;
+    }
+    .counterup-section .counterup-inner .items{
+        padding: 20px 0;
+    }
+    p{
+        font-size: 16px !important;
+    }
+    .banner-section {
+        padding: 50px 15px;
+        .banner-wraper{
+            display: block;
+        }
+    }
+    
+    .banner-section .banner-wraper .left-side {
+        text-align: center;
+        margin-bottom: 30px;
+        max-width: 100%;
+        .logo {
+            display: block;
+            margin-bottom: 70px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            max-width: 100px;
+        }
+    }
+    .banner-section .banner-wraper .left-side{
+        margin: 0 auto;
+        padding: 30px;
+    }
+    .banner-section .banner-wraper .right-side{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .banner-section .banner-wraper .left-side h2{
+        font-size: 40px;
+    }
+    .banner-section .banner-wraper .right-side{
+        max-width: 100%;
+    }
+    .programmes-section .title-area h2{
+        font-size: 30px;
+    }
+    .counterup-section h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 30px !important;
+    }
+    h1{
+        font-size: 30px !important;
+    }
+}
+/* Tab Screen */
+@media (max-width: 767px){ 
+    .footer-section .footer-items.border-items{
+        padding: 0;
+    }
+    .footer-section .footer-items .logo{
+        text-align: center;
+    }
+    .counterup-section .counterup-inner .items{
+        width: 100%;
+    }
+    .footer-section .footer-items.border-items{
+        border: none;
+    }
+    .footer-section .footer-bottom{
+        p{
+            text-align: center;
+            margin-bottom: 10px;
+
+        }
+        ul{
+            text-align: center;
+        }
+    }
+    h2{
+        font-size: 25px !important;
+    }
+    h1{
+        font-size: 25px !important;
+    }
+    
+    .banner-section .banner-wraper .left-side{
+        padding: 15px;
+    }
+    .banner-section .banner-wraper .right-side{
+        padding: 15px;
+    }
+    .footer-section .footer-items h2{
+        font-size: 16px !important;
+    }
+    .footer-section .footer-items{
+        text-align: center;
+    }
+    .footer-section .footer-items .logo-side{
+        margin: 0 auto;
+    }
+    .footer-section .follow-us{
+        text-align: center;
+    }
+    .footer-section .footer-bottom p{
+        line-height: 18px;
+    }
+    .footer-section .footer-bottom {
+        padding: 10px 0;
+        ul li a{
+            padding: 0;
+        }
+    }
+    .counterup-section .counterup-inner .items {
+        width: 31%;
+        margin: 5px;
+    }
+    .counterup-section .counterup-inner {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .features-section .features-items .icon{
+        max-width: 50px;
+        margin: 0 auto;
+    }
+    .features-section .features-items h4{
+        margin-top: 15px;
+        font-size: 25px;
+    }
+    .features-section .features-items p{
+        font-size: 14px !important;
+        line-height: 18px;
+    }
+}
+/* Mobil Screen */
+@media (max-width: 575px){
+    
+    .counterup-section .counterup-inner .items {
+        width: 47%;
+        margin: 5px;
+    }
+    .institution-section .brand-area .brand-items {
+        height: 250px;
+        padding: 10px;
+        img{
+            max-width: 60%;
+        }
+    }
+}
+/* Mobil Screen */
+@media (max-width: 400px){
+    
+    .institution-section .brand-area .brand-items {
+        height: 180px;
+        padding: 10px;
+        img{
+            max-width: 60%;
+        }
+    }
+}
+@media (max-width: 360px){
+}

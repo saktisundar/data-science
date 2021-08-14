@@ -1,0 +1,86 @@
+/* Fonts */
+$pss: 'Segoe';
+$bss: 'Barlow', sans-serif;
+$mss: 'Montserrat', sans-serif;
+
+/*Color Variables*/ 
+$acc: #C133FD; 
+$pfont: #606060; 
+$font: #090036; 
+
+
+$header1: transparent linear-gradient(90deg, #C133FD 0%, #0389FF 100%) 0% 0% no-repeat;
+$fashion: transparent linear-gradient(89deg, #FD256C 0%, #B433FD 100%) 0% 0% no-repeat;
+
+
+
+
+
+
+
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+@mixin placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+} 
+/* Bottom to Top key frame*/
+@-webkit-keyframes BottomToTop {
+    49% {
+        -webkit-transform : translateY(-100%);
+        }
+    50% {
+        opacity           : 0;
+        -webkit-transform : translateY(100%);
+        }
+    51% {
+        opacity : 1;
+        }
+    }
+@-moz-keyframes BottomToTop {
+    49% {
+        -moz-transform : translateY(-100%);
+        }
+    50% {
+        opacity        : 0;
+        -moz-transform : translateY(100%);
+        }
+    51% {
+        opacity : 1;
+        }
+    }
+@keyframes BottomToTop {
+    49% {
+        transform : translateY(-100%);
+    }
+    50% {
+        opacity   : 0;
+        transform : translateY(100%);
+    }
+    51% {
+        opacity : 1;
+    }
+} 
+
+
+
+// pulse-border 
+@keyframes pulse-border {
+    0% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      opacity: 0;
+    }
+} 
+
+
+/* Button Style */
